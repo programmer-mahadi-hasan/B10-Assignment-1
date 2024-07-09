@@ -1,3 +1,52 @@
-h1{
-    color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* common styles */
+* {
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* banner styles */
+.banner {
+    text-align: center;
+    margin-top: 35px;
+    background-image: url("./assets/Banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 26px 0 44px 0;
+}
+
+.banner-text-content .banner-title {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 100;
+    margin-top: 32px;
+}
+
+.banner-text-content .banner-description {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 24px 0 32px 0;
+}
+
+.contact-btn {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    border-radius: 8px;
+    background: #0d1321;
+    padding: 21px 24px 21px 24px;
 }
