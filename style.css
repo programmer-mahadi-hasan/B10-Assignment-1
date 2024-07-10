@@ -37,6 +37,31 @@
 }
 
 /* ---------------------header styles------------------ */
+/* navbar styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 768px;
+    margin-top: 10px;
+}
+
+.navbar .name-logo {
+    color: #0d1321;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.navbar .resume-btn {
+    padding: 16px 24px;
+    border: none;
+    border: 1px solid #0d1321;
+    border-radius: 8px;
+    opacity: 0.8;
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 100;
+}
 
 /* banner styles */
 .banner {
@@ -115,7 +140,7 @@ main {
     margin-bottom: 16px;
 }
 
-.learnMore-btn {
+.learn-more-btn {
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 100;
@@ -266,4 +291,5 @@ main {
     height: 36px;
     margin-right: 24px;
 }
+
 /* ----------------------------footer styles ends--------------------------- */
