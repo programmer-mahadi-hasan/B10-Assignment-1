@@ -80,6 +80,7 @@ main {
     border-radius: 16px;
     background: #0d132105;
     padding: 80px 96px;
+    margin-bottom: 90px;
 }
 
 .why-web-development-text {
@@ -87,7 +88,8 @@ main {
     margin-bottom: 48px;
 }
 
-.i-will-do-coding {
+.i-will-do-coding,
+.i-will-help-people {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +100,8 @@ main {
     background: linear-gradient(90.00deg, #ffffff, #ffffff00 100%);
 }
 
-.i-will-do-coding-title {
+.i-will-do-coding-title,
+.i-will-help-people-title {
     color: #0d1321b3;
     font-size: 24px;
     font-weight: 100;
@@ -106,10 +109,10 @@ main {
 }
 
 .learnMore-btn {
-    color: #0d1321;
+    color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 100;
-    border: 1px solid #0d1321;
+    border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
     margin-top: 32px;
