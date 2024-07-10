@@ -150,36 +150,92 @@ main {
 .my-current-target-text {
     text-align: center;
 }
-.current-target-cards{
+
+.current-target-cards {
     display: flex;
     gap: 24px;
     margin-top: 48px;
 }
+
 .target-card-html {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     padding: 40px;
     width: 33.33%;
 }
+
 .target-card-css {
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
     padding: 40px;
     width: 33.33%;
 }
+
 .target-card-js {
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
     width: 33.33%;
 }
-.target-card-img{
+
+.target-card-img {
     margin: 24px 0;
 }
+
 .target-card-text .target-card-learn-more {
     color: #0d1321;
     font-size: 16px;
     font-weight: 100;
     display: block;
     margin: 24px 0;
+}
+
+/* need support styles */
+.need-support {
+    background-image: url("./assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 64px 48px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+    margin-top: 48px;
+}
+
+.need-support-text .need-support-title {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.need-support-text .need-support-description {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 16px 0 24px 0;
+}
+
+.need-support-input-part .input-field {
+    border: 1px solid #0d132126;
+    border-radius: 8px;
+    background: #ffffff;
+    margin: 0 16px;
+    padding: 20px;
+    width: 548px;
+    color: #0d132166;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.need-support-input-part .submit-btn {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 100;
+    background: #ffffff;
+    border-radius: 8px;
+    border: none;
+    padding: 17px 20px 17px 20px;
+    margin: 0 16px;
+
+
 }
