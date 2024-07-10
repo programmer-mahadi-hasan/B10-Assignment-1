@@ -241,7 +241,7 @@ main {
 /* ---------------------main styles ends------------------------------- */
 
 /* ----------------------footer styles starts-------------------------- */
-footer {
+#footer-section {
     height: 100px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
@@ -252,7 +252,7 @@ footer {
     gap: 527px;
 }
 
-footer .footer-title {
+#footer-section .footer-title {
     color: #0d1321;
     font-size: 20px;
     font-weight: 100;
@@ -263,3 +263,4 @@ footer .footer-title {
     height: 36px;
     margin-right: 24px;
 }
+/* ----------------------------footer styles ends--------------------------- */
